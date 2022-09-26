@@ -1,4 +1,5 @@
 @import "nav.css";
+@import "recent.css";
 :root {
     --primary: #247ba0;
     --secondary: #0d1830;
@@ -96,8 +97,9 @@ html.dark-theme {
 }
 
 .layout-section {
-    padding-bottom: 200px;
+    padding-bottom: 150px;
     scroll-margin-top: 20px;
+    border: 1px solid red;
 }
 
 .layout-section-title {
@@ -372,6 +374,7 @@ strong {
     max-width: 960px;
     margin-inline: auto;
     padding-inline: 20px;
+    border: 1px solid black;
 }
 
 ::selection {
