@@ -1,0 +1,87 @@
+:root {
+    --primary: #247ba0;
+    --secondary: #0d1830;
+    --light: #68edc6;
+    --black: #040810;
+    --gray: #6f6d74;
+    --gray-light: #dad2d8;
+    --text-color: white;
+    --light-icon: var(--light);
+    --dark-icon: var(--black);
+    --gap--lg: 100px;
+    --gap: 80px;
+}
+
+html {
+    background-color: var(--secondary);
+    color: var(--text-color);
+}
+
+html.light-theme {
+    background-color: var(--beige);
+    --text-color: var(--black);
+    --gray-light: var(--gray-dark);
+    --light-icon: var(--black);
+    --dark-icon: white;
+    --anchor-color: var(--black);
+}
+
+*,
+ :before,
+ :after {
+    box-sizing: border-box;
+}
+
+@media (max-width: 37.5rem) {
+     :root {
+        --gap--lg: 40px;
+        --gap: 30px;
+    }
+}
+
+.title--lg {
+    font-size: 5.6rem;
+    font-weight: bold;
+    line-height: 1.05;
+}
+
+.title--sm {
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.06;
+}
+
+.text--xl {
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.77;
+}
+
+.text--xl {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.77;
+}
+
+.text {
+    font-size: 1.13rem;
+    font-weight: normal;
+    line-height: 1.77;
+}
+
+.text--sm {
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.77;
+}
+
+.layout-section {
+    padding-bottom: 200px;
+    scroll-margin-top: 20px;
+}
+
+.layout-section-title {
+    margin-bottom: 36px;
+}
