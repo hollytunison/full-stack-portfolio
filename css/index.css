@@ -7,8 +7,9 @@
     --light: #f6f4f5;
     --black: #040810;
     --gray: #6f6d74;
+    --white: #fff;
     --gray-light: #dad2d8;
-    --text-color: var(--secondary);
+    --text-color: var(--white);
     --light-icon: var(--light);
     --dark-icon: var(--black);
     --gap--lg: 100px;
@@ -17,14 +18,14 @@
 }
 
 html {
-    background-color: var(--light);
+    background-color: var(--secondary);
     color: var(--text-color);
 }
 
-html.dark-theme {
-    background-color: var(--secondary);
-    --text-color: var(--white);
-    --light-icon: var(--white);
+html.light-theme {
+    background-color: var(--light);
+    --text-color: var(--secondary);
+    --light-icon: var(--secondary);
     --dark-icon: var(--black);
     --anchor-color: var(--black);
 }
@@ -105,12 +106,6 @@ html.dark-theme {
     margin-bottom: 36px;
 }
 
-.layout-grid-half {
-    gap: var(--gap);
-    grid-template-columns: 1fr 1fr;
-    display: grid;
-}
-
 .btn {
     all: unset;
     box-sizing: border-box;
@@ -151,7 +146,7 @@ html.dark-theme {
 }
 
 .btn--nav {
-    color: var(--secondary);
+    color: var(--text-color);
     opacity: .7;
     padding: 12px;
 }
@@ -278,31 +273,6 @@ textarea.input {
     }
 }
 
-.scroll-down {
-    text-align: center;
-    position: absolute;
-    bottom: 25px;
-    left: 0;
-    right: 0;
-}
-
-.scroll-down svg {
-    --scroll-fill: var(--dark-icon);
-    cursor: pointer;
-    transition: fill .35s;
-    animation: bounce 1.6s cubic-bezier(.445, .05, .55, .95) infinite;
-}
-
-.scroll-down svg:hover {
-    --scroll-fill: var(--light-icon);
-}
-
-@keyframes bounce {
-    50% {
-        transform: translateY(-15px);
-    }
-}
-
 #toggle-theme {
     all: unset;
     outline: revert;
@@ -321,7 +291,8 @@ textarea.input {
 }
 
 #intro {
-    position: relative;
+    /* position: relative; */
+    align-items: center;
 }
 
 .intro-name {
@@ -351,7 +322,7 @@ a:hover {
 }
 
 p {
-    color: var(--secondary);
+    color: var(--text-color);
 }
 
 textarea,
