@@ -99,7 +99,6 @@ html.dark-theme {
 .layout-section {
     padding-bottom: 150px;
     scroll-margin-top: 20px;
-    border: 1px solid red;
 }
 
 .layout-section-title {
@@ -135,9 +134,12 @@ html.dark-theme {
     transform: translate(1px, 1px);
 }
 
+
+/* Buttons and Links */
+
 .btn--link {
     color: var(--text-color);
-    padding: 12px;
+    padding: 16 16 16 0px;
 }
 
 .btn--link:after {
@@ -374,7 +376,6 @@ strong {
     max-width: 960px;
     margin-inline: auto;
     padding-inline: 20px;
-    border: 1px solid black;
 }
 
 ::selection {
