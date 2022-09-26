@@ -54,13 +54,13 @@ html.light-theme {
 }
 
 .title--lg {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 1.05;
 }
 
 .title--md {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.05;
 }
@@ -68,7 +68,7 @@ html.light-theme {
 .title--sm {
     letter-spacing: .1rem;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 1.06;
 }
