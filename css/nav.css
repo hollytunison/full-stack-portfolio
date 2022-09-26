@@ -1,0 +1,22 @@
+.nav {
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 18px;
+    display: flex;
+}
+
+.nav-links {
+    gap: 10px;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+@media (max-width: 37.5rem) {
+    .nav-links li {
+        display: none;
+    }
+    .nav-links li:last-child {
+        display: initial;
+    }
+}
