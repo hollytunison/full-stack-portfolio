@@ -1,5 +1,6 @@
 @import "nav.css";
 @import "recent.css";
+@import "card.css";
 :root {
     --primary: #247ba0;
     --secondary: #0d1830;
@@ -18,7 +19,7 @@
 }
 
 html {
-    background-color: var(--light);
+    background-color: var(--wh);
     color: var(--text-color);
 }
 
@@ -62,7 +63,7 @@ html.dark-theme {
 }
 
 .title--lg {
-    font-size: 3rem;
+    font-size: 2.6rem;
     font-weight: bold;
     line-height: 1.05;
 }
@@ -211,24 +212,26 @@ html.dark-theme {
     outline-color: var(--tag-color);
 }
 
-.portfolio {
+.card {
     gap: var(--gap);
     grid-template-columns: 300px 1fr;
     margin-bottom: 100px;
     display: grid;
+    background-color: var(--light);
 }
 
 @media (min-width: 37.51rem) {
     .portfolio:nth-child(2n+1) {
         grid-template-columns: 1fr 300px;
     }
-    .portfolio:nth-child(2n+1) .portfolio-screenshot {
+    .card:nth-child(2n+1) .card-screenshot {
         order: 1;
     }
 }
 
-.portfolio-screenshot {
-    border-radius: 50%;
+.card-screenshot {
+    width: 3fr;
+    height: 3fr;
 }
 
 @media (max-width: 37.5rem) {
@@ -321,14 +324,8 @@ textarea.input {
     display: flex;
 }
 
-.intro-layout-section .intro-name {
+.intro-name {
     margin-bottom: 0;
-}
-
-.intro-tagline {
-    overflow-wrap: break-word;
-    margin-top: 0;
-    margin-bottom: 64px;
 }
 
 a {
@@ -357,13 +354,21 @@ strong {
 .container {
     max-width: 960px;
     margin-inline: auto;
-    padding-inline: 20px;
-    border: 1px solid #040810;
-    padding-top: 72px;
-    padding-bottom: 72px;
+    padding-inline: 16px;
+    /* border: 1px solid #040810; */
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 ::selection {
     background-color: var(--primary);
     color: var(--black);
+}
+
+.heading-centered {
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    padding-bottom: 32px;
 }
