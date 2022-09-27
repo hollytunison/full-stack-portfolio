@@ -14,9 +14,8 @@
 
 <body>
     <nav>
-        <div class="container">
+        <div class="nav-container">
             <div class="nav">
-
                 <div class="nav-logo">
                     <a href="index.html">
                         <img src="/images/dark/logo.svg" alt="Holly Tunison's logo" width="45" height="45">
@@ -24,14 +23,13 @@
 
                 </div>
                 <ul class="nav-links">
-                    <li><a href="#projects" class="btn btn--nav">Projects</a></li>
+                    <li><a href="#portfolio" class="btn btn--nav">Portfolio</a></li>
                     <li>
                         <a href="#about" class="btn btn--nav">About</a>
                     </li>
                     <li>
                         <a href="#contact" class="btn btn--nav">Contact</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -40,7 +38,7 @@
               xmlns="http://www.w3.org/2000/svg"
               enable-background="new 0 0 24 24"
               height="24px"
-              viewBox="0 0 24 24"
+              viewbox="0 0 24 24"
               width="24px"
               fill="var(--light-icon)"
             >
@@ -54,13 +52,15 @@
 
     <!-- Main -->
     <main>
-        <section id="intro" class="layout-section" aria-describedby="intro-h1 intro-h2">
-            <div class="container">
-                <img src="/images/avatar.png" alt="image of holly" class="avatar">
+        <div class="container">
+            <section id="intro" class="layout-section" aria-describedby="intro-h1 intro-h2">
+                <img src="/images/avatar.png" alt="image of holly" class="avatar" width="180" height="180">
                 <h1 id="intro-h1" class="title--lg intro name">Howdy, I'm Holly.</h1>
-                <h2 id="intro-h2" class="title--md intro-tagline">A Web Developer with UX experience.</h2>
-            </div>
-        </section>
+                <h2 id="intro-h2" class="title--md intro-tagline">I'm a <strong>web developer</strong> with UX experience.</h2>
+                <button class="btn-primary" type="button">View Dev Projects</button>
+                <a href="https://www.hollytunison.com/" class="btn btn--link" target="https://www.hollytunison.com/">View UX Portfolio</a>
+            </section>
+        </div>
 
         <!-- Recent Work -->
         <div class="container">
