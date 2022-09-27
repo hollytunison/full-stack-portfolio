@@ -9,10 +9,10 @@
 }
 
 @media (max-width: 30rem) {
-    .portfolio {
+    .card {
         flex-direction: column;
     }
-    .portfolio-screenshot {
+    .card-screenshot {
         order: 1;
     }
 }
