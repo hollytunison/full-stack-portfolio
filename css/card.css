@@ -1,7 +1,6 @@
-.card-container {
+.box {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    align-items: left;
     gap: 1rem;
     margin: 1rem;
     flex-wrap: wrap;
@@ -9,7 +8,7 @@
 
 .card {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     border-radius: 0.5rem;
     overflow: hidden;
     max-width: 64rem;
@@ -17,7 +16,7 @@
 }
 
 @media (max-width: 30rem) {
-    .card-container,
+    .box,
     .card {
         flex-direction: column;
         flex-wrap: wrap;
@@ -31,7 +30,6 @@
 
 @media (max-width: 30rem) {
     .image-wrapper {
-        flex: 1 0 61.8%;
         height: auto;
     }
 }
