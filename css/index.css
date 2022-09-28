@@ -372,3 +372,9 @@ strong {
     display: flex;
     padding-bottom: 32px;
 }
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, var(--white), var(--gray-light), var(--white));
+}

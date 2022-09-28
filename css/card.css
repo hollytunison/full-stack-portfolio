@@ -1,37 +1,26 @@
 .card-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 1rem;
     margin: 1rem;
+    flex-wrap: wrap;
 }
 
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-radius: 0.5rem;
     overflow: hidden;
     max-width: 64rem;
     background-color: aquamarine;
 }
 
-@media (max-width: 18rem) {
-    .card-container {
-        flex-direction: column;
-    }
-    .card-text {
-        padding: 1rem;
-        margin: 0;
-    }
-}
-
 @media (max-width: 30rem) {
-    .card-container {
+    .card-container,
+    .card {
         flex-direction: column;
-    }
-    .card-text {
-        padding: 1rem;
-        margin: 0;
+        flex-wrap: wrap;
     }
 }
 
