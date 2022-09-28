@@ -378,3 +378,7 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, var(--white), var(--gray-light), var(--white));
 }
+
+.logo {
+    color: var(--secondary);
+}
