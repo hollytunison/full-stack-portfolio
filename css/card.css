@@ -36,22 +36,12 @@ img {
     object-position: center;
 }
 
-@media (max-width: 30rem) {
-    .image-wrapper {
-        height: auto;
-    }
-    img {
-        border-radius: .5rem .5rem 0 0;
-    }
-}
-
 .image-wrapper {
     width: 50%;
     height: 300px;
     flex-shrink: 0;
     overflow: hidden;
     border-radius: .5rem 0 0 .5rem;
-    /* border: 1px solid red; */
 }
 
 .card-content,
@@ -65,5 +55,7 @@ img {
     }
     .image-wrapper {
         width: 100%;
+        height: auto;
+        border-radius: .5rem;
     }
 }
