@@ -40,6 +40,9 @@ img {
     .image-wrapper {
         height: auto;
     }
+    img {
+        border-radius: .5rem .5rem 0 0;
+    }
 }
 
 .image-wrapper {
@@ -47,6 +50,8 @@ img {
     height: 300px;
     flex-shrink: 0;
     overflow: hidden;
+    border-radius: .5rem 0 0 .5rem;
+    /* border: 1px solid red; */
 }
 
 .card-content,
