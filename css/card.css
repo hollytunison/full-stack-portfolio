@@ -1,3 +1,20 @@
+:root {
+    --primary: #247ba0;
+    --secondary: #0d1830;
+    --bright: #68edc6;
+    --light: #f6f4f5;
+    --black: #040810;
+    --gray: #6f6d74;
+    --white: #fff;
+    --gray-light: #dad2d8;
+    --text-color: var(--secondary);
+    --light-icon: var(--light);
+    --dark-icon: var(--black);
+    --gap--lg: 100px;
+    --gap: 80px;
+    --anchor-color: var(--primary);
+}
+
 .box {
     display: flex;
     align-items: left;
@@ -8,21 +25,9 @@
 
 .card {
     display: flex;
-    /* flex-wrap: wrap; */
     border-radius: 0.5rem;
-    /* overflow: hidden;
-    max-width: 64rem; */
-    background-color: aquamarine;
+    background-color: var(--light)
 }
-
-
-/* @media (max-width: 30rem) {
-    .box,
-    .card {
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-} */
 
 img {
     width: 100%;
