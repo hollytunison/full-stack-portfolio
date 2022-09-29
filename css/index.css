@@ -2,17 +2,17 @@
     @import "recent.css";
     @import "card.css";
      :root {
-        --primary: #247ba0;
-        --secondary: #0d1830;
-        --bright: #68edc6;
+        --secondary: #263c6c;
+        --primary: #0d1830;
+        --bright: #2d848a;
         --light: #f6f4f5;
         --black: #040810;
-        --gray: #6f6d74;
+        --gray: #CED0CE;
         --white: #fff;
-        --gray-light: #dad2d8;
-        --text-color: var(--secondary);
+        --gray-light: #e6e8e6;
+        --text-color: var(--primary);
         --light-icon: var(--light);
-        --dark-icon: var(--black);
+        --dark-icon: var(--primary);
         --gap--lg: 100px;
         --gap: 80px;
         --anchor-color: var(--primary);
@@ -25,10 +25,10 @@
     
     html.light-theme {
         background-color: var(--light);
-        --text-color: var(--secondary);
-        --light-icon: var(--secondary);
-        --dark-icon: var(--black);
-        --anchor-color: var(--black);
+        --text-color: var(--primary);
+        --light-icon: var(--primary);
+        --dark-icon: var(--primary);
+        --anchor-color: var(--primary);
     }
     
     html.dark-theme {
@@ -128,10 +128,10 @@
         align-items: center;
         padding: 8px 16px;
         gap: 8px;
-        border: 1px solid var(--secondary);
+        border: 1px solid var(--primary);
         border-radius: 4px;
         color: var(--light);
-        background-color: var(--secondary);
+        background-color: var(--primary);
         margin-bottom: 16px;
         margin-top: 16px;
     }
@@ -151,17 +151,16 @@
         display: inline-block;
         margin-top: 16px;
         margin-bottom: 16px;
+        color: var(--secondary);
     }
     
-    .btn,
     .btn-primary:hover {
-        opacity: .8;
+        background-color: var(--secondary);
     }
     
     .btn:active {
         transform: translate(1px, 1px);
     }
-    /* Buttons and Links */
     
     .btn--link {
         color: var(--text-color);
@@ -170,12 +169,12 @@
     
     .btn--nav {
         color: var(--text-color);
-        opacity: .7;
+        /* opacity: .7; */
         padding: 12px;
     }
     
     .btn--nav:hover {
-        opacity: 1;
+        color: var(--secondary);
     }
     
     .tags {
@@ -296,12 +295,12 @@
     
     a {
         color: var(--anchor-color);
-        opacity: .85;
+        /* opacity: .85; */
         transition: opacity .2s;
     }
     
     a:hover {
-        opacity: 1;
+        color: var(--secondary);
     }
     
     p {
