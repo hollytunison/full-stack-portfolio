@@ -344,5 +344,14 @@
     }
     
     .logo {
-        color: var(--secondary);
+        height: 24x;
+        width: auto;
+    }
+    
+    .svg {
+        color: var(--primary);
+    }
+    
+    .svg:hover {
+        color: var(--secondary)
     }
