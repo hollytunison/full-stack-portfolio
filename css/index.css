@@ -20,7 +20,7 @@
     }
     
     html {
-        background-color: var(--cream);
+        background-color: var(--white);
         color: var(--text-color);
     }
     
@@ -73,6 +73,7 @@
         font-size: 1.5rem;
         font-weight: 400;
         line-height: 1.05;
+        margin-top: 0;
     }
     
     .title--sm {
@@ -152,11 +153,12 @@
         display: inline-block;
         margin-top: 16px;
         margin-bottom: 16px;
-        color: var(--secondary);
+        color: var(--primary);
     }
     
     .btn-primary:hover {
-        background-color: var(--secondary);
+        background-color: var(--bright);
+        color: var(--primary);
     }
     
     .btn:active {
@@ -168,6 +170,13 @@
         padding: 16 16 16 0px;
     }
     
+    .btn--underline {
+        color: var(--text-color);
+        padding: 16 16 16 0px;
+        text-decoration: underline;
+        text-decoration-color: var(--primary);
+    }
+    
     .btn--nav {
         color: var(--text-color);
         /* opacity: .7; */
@@ -175,7 +184,7 @@
     }
     
     .btn--nav:hover {
-        color: var(--secondary);
+        color: var(--primary);
     }
     
     .tags {
@@ -296,12 +305,12 @@
     
     a {
         color: var(--anchor-color);
-        /* opacity: .85; */
+        opacity: .85;
         transition: opacity .2s;
     }
     
     a:hover {
-        color: var(--secondary);
+        background-color: var(--bright);
     }
     
     p {
