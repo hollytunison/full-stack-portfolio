@@ -2,14 +2,15 @@
     @import "recent.css";
     @import "card.css";
      :root {
-        --secondary: #263c6c;
-        --primary: #0d1830;
-        --bright: #2d848a;
-        --light: #f6f4f5;
+        --primary: #1B264F;
+        --secondary: #3e58b6;
+        --bright: #83e8ba;
+        --light: #bdeed7;
         --black: #040810;
-        --gray: #CED0CE;
+        --gray: #bbbbbf;
         --white: #fff;
-        --gray-light: #e6e8e6;
+        --cream: #f1f7ed;
+        --gray-light: #dcdcdd;
         --text-color: var(--primary);
         --light-icon: var(--light);
         --dark-icon: var(--primary);
@@ -19,7 +20,7 @@
     }
     
     html {
-        background-color: var(--wh);
+        background-color: var(--cream);
         color: var(--text-color);
     }
     
@@ -130,7 +131,7 @@
         gap: 8px;
         border: 1px solid var(--primary);
         border-radius: 4px;
-        color: var(--light);
+        color: var(--white);
         background-color: var(--primary);
         margin-bottom: 16px;
         margin-top: 16px;
