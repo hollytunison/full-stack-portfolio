@@ -7,7 +7,7 @@
     --gray: #bbbbbf;
     --white: #fff;
     --cream: #f1f7ed;
-    --gray-light: #f7f4f3;
+    --gray-light: f7f4f3;
     --text-color: var(--primary);
     --light-icon: var(--light);
     --dark-icon: var(--primary);
@@ -28,6 +28,10 @@
     display: flex;
     border-radius: 0.5rem;
     background-color: var(--gray-light);
+}
+
+.btn-content {
+    padding: 2rem 0 0 0;
 }
 
 img {

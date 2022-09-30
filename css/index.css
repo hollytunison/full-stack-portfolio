@@ -368,7 +368,7 @@
     hr {
         border: 0;
         height: 1px;
-        background-image: linear-gradient(to right, var(--white), var(--gray-light), var(--white));
+        background-image: linear-gradient(to right, var(--white), var(--gray), var(--white));
     }
     
     .logo {
@@ -394,6 +394,6 @@
         margin: 0 0.5rem;
         animation: bounce;
         /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 2s;
-        /* don't forget to set a duration! */
+        animation-duration: 1s;
+        animation-duration: 3s;
     }
