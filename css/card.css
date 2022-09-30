@@ -1,15 +1,16 @@
 :root {
-    --primary: #247ba0;
-    --secondary: #0d1830;
-    --bright: #68edc6;
-    --light: #f6f4f5;
+    --primary: #1B264F;
+    --secondary: #3e58b6;
+    --bright: #83e8ba;
+    --light: #bdeed7;
     --black: #040810;
-    --gray: #6f6d74;
+    --gray: #bbbbbf;
     --white: #fff;
-    --gray-light: #dad2d8;
-    --text-color: var(--secondary);
+    --cream: #f1f7ed;
+    --gray-light: #f7f4f3;
+    --text-color: var(--primary);
     --light-icon: var(--light);
-    --dark-icon: var(--black);
+    --dark-icon: var(--primary);
     --gap--lg: 100px;
     --gap: 80px;
     --anchor-color: var(--primary);
@@ -26,7 +27,7 @@
 .card {
     display: flex;
     border-radius: 0.5rem;
-    background-color: var(--light);
+    background-color: var(--gray-light);
 }
 
 img {
