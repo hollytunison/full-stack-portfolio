@@ -186,6 +186,14 @@
         padding: 1rem;
     }
     
+    .btn:hover {
+        background-color: var(--bright);
+    }
+    
+    p {
+        color: var(--text-color);
+    }
+    
     .btn--nav {
         color: var(--text-color);
         /* opacity: .7; */
