@@ -177,6 +177,15 @@
         text-decoration-color: var(--primary);
     }
     
+    .btn--arrow {
+        color: var(--text-color);
+        padding: 16 16 16 0px;
+        text-decoration-color: var(--primary);
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+    }
+    
     .btn--nav {
         color: var(--text-color);
         /* opacity: .7; */
@@ -364,4 +373,18 @@
     
     .svg:hover {
         color: var(--secondary)
+    }
+    
+    .icons8-down {
+        display: inline-block;
+        width: 1.5rem;
+        height: 1.5rem;
+        background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDI0Ljc4MTI1IDcuOTY4NzUgQyAyMy43NSA4LjA4MjAzMSAyMi45NzY1NjMgOC45NjQ4NDQgMjMgMTAgTCAyMyAzNS4wOTM3NSBMIDE2LjQwNjI1IDI4LjU2MjUgQyAxNi4wMjczNDQgMjguMTc5Njg4IDE1LjUwNzgxMyAyNy45NjQ4NDQgMTQuOTY4NzUgMjcuOTY4NzUgQyAxNC4xNDA2MjUgMjcuOTYwOTM4IDEzLjM5ODQzOCAyOC40NjQ4NDQgMTMuMDkzNzUgMjkuMjMwNDY5IEMgMTIuNzg5MDYzIDMwIDEyLjk4ODI4MSAzMC44NzUgMTMuNTkzNzUgMzEuNDM3NSBMIDIzLjU5Mzc1IDQxLjMxMjUgTCAyNSA0Mi43MTg3NSBMIDI2LjQwNjI1IDQxLjMxMjUgTCAzNi40MDYyNSAzMS40Mzc1IEMgMzcuMTk5MjE5IDMwLjY2MDE1NiAzNy4yMTQ4NDQgMjkuMzg2NzE5IDM2LjQzNzUgMjguNTkzNzUgQyAzNS42NjAxNTYgMjcuODAwNzgxIDM0LjM4NjcxOSAyNy43ODUxNTYgMzMuNTkzNzUgMjguNTYyNSBMIDI3IDM1LjA5Mzc1IEwgMjcgMTAgQyAyNy4wMDc4MTMgOS40NTcwMzEgMjYuNzk2ODc1IDguOTM3NSAyNi40MTQwNjMgOC41NTQ2ODggQyAyNi4wMzEyNSA4LjE3MTg3NSAyNS41MTE3MTkgNy45NjA5MzggMjQuOTY4NzUgNy45Njg3NSBDIDI0LjkwNjI1IDcuOTY0ODQ0IDI0Ljg0Mzc1IDcuOTY0ODQ0IDI0Ljc4MTI1IDcuOTY4NzUgWiI+PC9wYXRoPjwvc3ZnPg==') 50% 50% no-repeat;
+        background-size: 100%;
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: bounce;
+        /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        /* don't forget to set a duration! */
     }
