@@ -326,6 +326,7 @@
     
     p {
         color: var(--text-color);
+        line-height: 1.5rem;
     }
     
     textarea,
