@@ -10,15 +10,15 @@
         --black: #333333;
         --gray: #484848;
         --white: #fff;
-        --cream: #f1f7ed;
+        --cream: #eaeaea;
         --gray-light: #767676;
-        --text-color: var(--primary);
+        --text-color: var(--black);
         --light-icon: var(--light);
         --dark-icon: var(--primary);
         --gap--lg: 100px;
         --gap: 80px;
         --gap--sm: 40px;
-        --anchor-color: var(--primary);
+        --anchor-color: var(--black);
     }
     
     html {
@@ -109,21 +109,10 @@
         font-weight: normal;
         line-height: 1.77;
     }
-    
-    .layout-section {
-        /* padding-bottom: 150px; */
-        scroll-margin-top: 20px;
-    }
-    
-    .layout-section-title {
-        margin-bottom: px;
-    }
     /* BUTTONS AND LINKS */
     
     a {
-        color: var(--anchor-color);
-        opacity: .85;
-        transition: opacity .2s;
+        color: var(--gray);
     }
     
     a:hover {
@@ -155,7 +144,7 @@
         display: inline-block;
         margin-top: .8rem;
         margin-bottom: .8rem;
-        color: var(--text-color);
+        color: var(--gray);
         display: flex;
         align-items: center;
         padding: 1rem;
@@ -177,44 +166,16 @@
         font-weight: 600;
         line-height: 1.5;
         text-decoration: none;
-        /* transition: transform .18s, opacity .18s; */
+        transition: transform .18s, opacity .18s;
         display: inline-block;
         margin-top: 16px;
         margin-bottom: 16px;
-        color: var(--text-color);
-        text-decoration-color: var(--primary);
-        display: flex;
+        color: var(--gray);
         align-items: center;
         padding: 1rem;
-        border: .01rem solid var(--primary);
-    }
-    
-    .btn--primary {
-        position: relative;
-        cursor: pointer;
-        font-weight: 600;
-        border: 1px solid var(--primary);
-        border-radius: 4px;
-        background-color: transparent;
-        box-sizing: border-box;
-        outline: revert;
-        cursor: pointer;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        font-size: .88rem;
-        font-weight: 600;
-        line-height: 1.5;
-        text-decoration: none;
-        /* transition: transform .18s, opacity .18s; */
         display: inline-block;
-        margin-top: 16px;
-        margin-bottom: 16px;
-        color: var(--text-color);
-        text-decoration-color: var(--primary);
-        display: flex;
-        align-items: center;
-        padding: 1rem;
-        border: .01rem solid var(--primary);
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     
     .btn:after {

@@ -9,7 +9,7 @@
 .card {
     display: flex;
     border-radius: 0.5rem;
-    background-color: var(--gray-light);
+    background-color: var(--cream);
 }
 
 .btn-content {
