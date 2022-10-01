@@ -4,19 +4,20 @@
      :root {
         --primary: #1B264F;
         --secondary: #3e58b6;
-        --bright: #83e8ba;
-        --active: #30d98d;
+        --bright: #bbf2d8;
+        --active: #83E8BA;
         --light: #bdeed7;
-        --black: #040810;
-        --gray: #bbbbbf;
+        --black: #333333;
+        --gray: #484848;
         --white: #fff;
         --cream: #f1f7ed;
-        --gray-light: #f7f4f3;
+        --gray-light: #767676;
         --text-color: var(--primary);
         --light-icon: var(--light);
         --dark-icon: var(--primary);
         --gap--lg: 100px;
         --gap: 80px;
+        --gap--sm: 40px;
         --anchor-color: var(--primary);
     }
     
@@ -232,21 +233,15 @@
     .btn:hover:after {
         top: 0px;
         left: 0px;
+        background-color: var(--bright);
+    }
+    
+    .btn:active {
         background-color: var(--active);
     }
     
     p {
         color: var(--text-color);
-    }
-    
-    .btn--nav {
-        color: var(--text-color);
-        /* opacity: .7; */
-        padding: 12px;
-    }
-    
-    .btn--nav:hover {
-        color: var(--primary);
     }
     
     .tags {
