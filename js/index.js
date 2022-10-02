@@ -1,11 +1,5 @@
+const hamburger = document.querySelector('.hamburger');
 
-document.querySelector("#toggle-theme").addEventListener("click", () => {
-  document.documentElement.classList.toggle("light-theme");
+hamburger.addEventListener('click', function () {
+  this.classList.toggle('is-active');
 });
-
-const prefersLight = window.matchMedia(
-  "(prefers-color-scheme: light)"
-)?.matches;
-if (prefersLight) {
-  document.documentElement.classList.toggle("light-theme");
-}

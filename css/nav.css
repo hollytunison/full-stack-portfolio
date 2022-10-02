@@ -1,3 +1,23 @@
+:root {
+    --primary: #1B264F;
+    --secondary: #3e58b6;
+    --bright: #bbf2d8;
+    --active: #83E8BA;
+    --light: #bdeed7;
+    --black: #333333;
+    --gray: #484848;
+    --white: #fff;
+    --cream: #eaeaea;
+    --gray-light: #767676;
+    --text-color: var(--black);
+    --light-icon: var(--light);
+    --dark-icon: var(--primary);
+    --gap--lg: 100px;
+    --gap: 80px;
+    --gap--sm: 40px;
+    --anchor-color: var(--black);
+}
+
 .nav {
     justify-content: space-between;
     align-items: center;
@@ -18,11 +38,68 @@
     display: flex;
 }
 
+.hamburger {
+    display: block;
+    position: relative;
+    z-index: 1;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 32px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background-color: gray;
+    border-radius: 6px;
+    z-index: 1;
+    transform-origin: 0 0;
+    transition: .4s;
+}
+
+.hamburger:hover span:nth-child(2) {
+    transform: translateX(10px);
+    background-color: var(--active);
+}
+
+.hamburger.is-active span:nth-child(1) {
+    transform: translate(0px, -2px) rotate(45deg);
+}
+
+.hamburger.is-active span:nth-child(2) {
+    opacity: 0;
+    transform: translate(15px);
+}
+
+.hamburger.is-active span:nth-child(3) {
+    transform: translate(-3px, 3px) rotate(-45deg);
+}
+
+.hamburger.hamburger.is-active:hover span {
+    background-color: var(--black);
+}
+
+.menu {
+    display: none;
+}
+
 @media (max-width: 37.5rem) {
     .nav-links li {
         display: none;
     }
     .nav-links li:last-child {
         display: initial;
+    }
+}
+
+@media (min-width: 37.5rem) {
+    .hamburger {
+        display: none;
     }
 }
