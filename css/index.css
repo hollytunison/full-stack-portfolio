@@ -54,7 +54,7 @@
             --gap: 30px;
         }
         html {
-            font-size: 60%;
+            font-size: 90%;
         }
     }
     
@@ -97,6 +97,12 @@
         font-weight: normal;
         line-height: 1.77;
         margin-left: 0;
+    }
+    
+    .text--lg {
+        font-size: 2.2rem;
+        font-weight: 300;
+        line-height: 1.9;
     }
     
     .text--sm {
