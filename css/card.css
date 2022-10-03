@@ -1,8 +1,7 @@
 .box {
     display: flex;
     align-items: left;
-    gap: 1rem;
-    margin: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
 }
 
