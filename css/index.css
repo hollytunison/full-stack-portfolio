@@ -125,19 +125,7 @@ html.dark-theme {
 
 a {
     color: var(--gray);
-}
-
-a:hover {
-    background-color: var(--bright);
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-    background-color: var(--active);
-}
-
-.link {
+    padding: 1rem;
     position: relative;
     cursor: pointer;
     font-weight: 600;
@@ -149,19 +137,22 @@ a:active {
     font-size: .88rem;
     font-weight: 600;
     line-height: auto;
-    text-decoration: none;
+    text-decoration: underline;
     display: inline-block;
-    margin-top: .8rem;
-    margin-bottom: .8rem;
     color: var(--gray);
-    display: flex;
     align-items: center;
     border: transparent;
+    border-radius: 4px;
 }
 
-.link:hover {
+a:hover {
     background-color: var(--bright);
-    min-height: 1rem;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+    background-color: var(--active);
 }
 
 .btn {
