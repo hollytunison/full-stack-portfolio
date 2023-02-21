@@ -44,7 +44,7 @@ img {
 }
 
 .image-wrapper {
-    width: 50%;
+    width: 28rem;
     height: auto;
     flex-shrink: 0;
     overflow: hidden;

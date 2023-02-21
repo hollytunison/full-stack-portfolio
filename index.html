@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Holly Tunison | Web Developer</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <meta name="description" content="Holly | Web Developer" />
+    <script src="https://play.vidyard.com/embed/v4.js"></script>
+
 </head>
 
 <!-- Navigation -->
@@ -51,7 +53,7 @@
         </div>
 
         <!-- Recent Work -->
-        <section id="work" class="container">
+        <div id="work" class="container">
             <h2 id="card-heading" class="title--sm layout-section-title">Recent Work</h2>
 
             <!-- card 1-->
@@ -68,10 +70,29 @@
                     </div>
                 </div>
 
-                <!-- card 2-->
+                <!-- Todo App -->
                 <div class="card">
                     <div class="image-wrapper">
-                        <img src="images/pokemon.jpg" alt="pokemon image">
+                        <img style="width: 100%; margin: auto; display: block;" alt="video of todo app" class="vidyard-player-embed" src="https://play.vidyard.com/3acEpUHxZ7YsSucmARKSXT.jpg" data-uuid="3acEpUHxZ7YsSucmARKSXT" data-v="4" data-type="inline" />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title--card">Todo App</h3>
+                        <p>Built with Vite, React.js, Hooks, CSS modules and local storage</p>
+                        <p></p>
+                        <div>
+                            <a href="https://github.com/hollytunison/react-todo" class="link" target="https://github.com/hollytunison/react-todop">View Github Repo</a>
+                        </div>
+                        <div>
+                            <a href="https://todo-app-e618d.web.app/" class="link" target="https://todo-app-e618d.web.app/">View Live App</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Podedex App -->
+                <div class="card">
+                    <div class="image-wrapper">
+                        <img style="width: 100%; margin: auto; display: block;" alt="video clip of poxedex app" class="vidyard-player-embed" src="https://play.vidyard.com/4pSB4pWeR5Zmc8Qfhq5uds.jpg" data-uuid="4pSB4pWeR5Zmc8Qfhq5uds" data-v="4" data-type="inline" />
                     </div>
                     <div class="card-content">
                         <h3 class="title--card">Pokedex</h3>
@@ -85,24 +106,9 @@
                     </div>
                 </div>
 
-                <!-- card 3-->
-                <div class="card">
-                    <div class="image-wrapper">
-                        <img src="images/to-do-list.jpg" alt="pokemon image">
-                    </div>
-                    <div class="card-content">
-                        <h3 class="title--card">To Do List</h3>
-                        <p>Simple to do list created with HTML, CSS and JavaScript.</p>
-                        <div>
-                            <a href="https://github.com/hollytunison/to-do-list-app/blob/main/index.html" class="link" target="https://github.com/hollytunison/to-do-list-app/blob/main/index.html">View Github Repo</a>
-                        </div>
-                        <div>
-                            <a href="https://hollytunison.github.io/to-do-list-app/" class="link" target="https://hollytunison.github.io/to-do-list-app/">View Live App</a>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </section>
+        </div>
+
 
         <!-- break -->
         <div class="container">
@@ -252,6 +258,9 @@
                 </footer>
 
                 <!-- <script src="js/index.js"></script> -->
+
+
+
 </body>
 
 </html>
