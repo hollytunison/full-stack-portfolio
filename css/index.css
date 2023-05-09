@@ -33,14 +33,6 @@ html.light-theme {
     --anchor-color: var(--primary);
 }
 
-html.dark-theme {
-    background-color: var(--light);
-    --text-color: var(--secondary);
-    --light-icon: var(--secondary);
-    --dark-icon: var(--black);
-    --anchor-color: var(--black);
-}
-
 *,
  :before,
  :after {
@@ -355,7 +347,7 @@ strong {
 }
 
  ::selection {
-    background-color: var(--primary);
+    background-color: var(--cream);
     color: var(--black);
 }
 
