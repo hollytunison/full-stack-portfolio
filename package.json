@@ -1,0 +1,22 @@
+{
+  "name": "full-stack-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio for dev projects",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hollytunison/full-stack-portfolio.git"
+  },
+  "author": "Holly Tunison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hollytunison/full-stack-portfolio/issues"
+  },
+  "homepage": "https://github.com/hollytunison/full-stack-portfolio#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
